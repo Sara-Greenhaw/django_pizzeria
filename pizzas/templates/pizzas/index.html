@@ -1,0 +1,10 @@
+<body style="background-color: indianred;"></body>
+{% extends "pizzas/base.html" %}
+
+{% block content %}
+<p>Pizza!</p>
+<p>Pizzas on pizzas on pizzas! New York City</p>
+<p>
+    {% load static %} <img src="{% static 'pizzas/media/saahil.jpg' %}" class="center" />
+</p>
+{% endblock content %}
