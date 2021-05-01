@@ -9,6 +9,8 @@ class ToppingsForm(forms.ModelForm):
         fields = ["name"]
         label = {"Name:": ""}
         widgets = {"name": forms.Textarea(attrs={"cols": 80})}
+
+
 #adding a comment
 #new class called commentform that inherits from forms.ModelForm which uses info from models to automatically build a form
 #the commentform class has a nested meta class lsitign the model its based on and the field to include in the form
